@@ -45,7 +45,7 @@ public class ConvertUnits {
 		
 		if (args.length != 4) {
 			throw new IllegalArgumentException("Use the correct arguments:\n" + 
-					"Usage: java -jar ConverUnits.jar <input number (dec.)> <input units (str.)> "
+					"Usage: java -jar ConvertUnits.jar <input number (dec.)> <input units (str.)> "
 					+ "<output units (str.)> <student answer (dec.)>");
 		}
 		
