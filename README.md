@@ -10,7 +10,7 @@ variable contains a path to your Java installation directory's bin folder.
 3. Using the command line, navigate to the directory where the jar file is
 saved.
 4. Run the application using the following syntax:
-   java -jar <jar-filename> <inputNum> <inputUnits> <outputUnits> <studentAns>
+   java -jar [jar-filename] [inputNum] [inputUnits] [outputUnits] [studentAns]
    a. <jar-filename> is the full filename (including .jar) of the jar you 
       downloaded from the repository.
    b. inputNum is the value to be converted from.
