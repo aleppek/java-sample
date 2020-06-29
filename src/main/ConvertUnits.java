@@ -18,7 +18,7 @@ public class ConvertUnits {
 	// Temperature Constants
 	private static final Double CELSIUS_KELVIN_OFFSET = 273.15;
 	private static final Double FAHRENHEIT_RANKINE_OFFSET = 459.67; 
-	private static final Double KELVIN_TO_RANKINE = (double)(9/5);
+	private static final Double KELVIN_TO_RANKINE = (double)9/5;
 		
 	// Volume Constants
 	private static final Double LITERS_TO_TBSP = 67.6280455;
