@@ -11,7 +11,7 @@ variable contains a path to your Java installation directory's bin folder.
 saved.
 4. Run the application using the following syntax:
    java -jar [jar-filename] [inputNum] [inputUnits] [outputUnits] [studentAns]
-   a. <jar-filename> is the full filename (including .jar) of the jar you 
+   a. jar-filename is the full filename (including .jar) of the jar you 
       downloaded from the repository.
    b. inputNum is the value to be converted from.
    c. inputUnits is the unit to be converted from.
