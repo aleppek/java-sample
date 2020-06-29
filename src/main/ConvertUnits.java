@@ -62,7 +62,7 @@ public class ConvertUnits {
 					+ "Input units must be in a supported format. See README.");
 		}
 		
-		if (temperatureUnits.contains(args[2]) || volumeUnits.contains(args[1])) {
+		if (temperatureUnits.contains(args[2]) || volumeUnits.contains(args[2])) {
 			targetUnits = args[2];
 		} else {
 			throw new IllegalArgumentException("Invalid argument: "
