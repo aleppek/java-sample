@@ -1,0 +1,17 @@
+Input Val,Units From,Units To,Truth Ans
+55,Kelvin,Kelvin,55
+55,Kelvin,Celsius,-218.15
+55,Kelvin,Fahrenheit,-360.67
+55,Kelvin,Rankine,99
+55,Celsius,Kelvin,328.15
+55,Celsius,Celsius,55
+55,Celsius,Fahrenheit,131
+55,Celsius,Rankine,590.67
+55,Fahrenheit,Kelvin,285.93
+55,Fahrenheit,Celsius,12.78
+55,Fahrenheit,Fahrenheit,55
+55,Fahrenheit,Rankine,514.67
+55,Rankine,Kelvin,30.56
+55,Rankine,Celsius,-242.59
+55,Rankine,Fahrenheit,-404.67
+55,Rankine,Rankine,55

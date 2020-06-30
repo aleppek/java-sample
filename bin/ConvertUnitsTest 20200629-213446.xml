@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ConvertUnitsTest" project="flexion-code" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="test.java.ConvertUnitsTest" time="0.437" displayname="ConvertUnitsTest" uniqueid="[engine:junit-jupiter]/[class:test.java.ConvertUnitsTest]">
+    <testcase name="testRoundToTenths" classname="test.java.ConvertUnitsTest" time="0.002" displayname="testRoundToTenths()" uniqueid="[engine:junit-jupiter]/[class:test.java.ConvertUnitsTest]/[method:testRoundToTenths()]"/>
+    <testcase name="testConvertVolume" classname="test.java.ConvertUnitsTest" time="0.416" displayname="testConvertVolume()" uniqueid="[engine:junit-jupiter]/[class:test.java.ConvertUnitsTest]/[method:testConvertVolume()]"/>
+    <testcase name="testCompareAnswer" classname="test.java.ConvertUnitsTest" time="0.002" displayname="testCompareAnswer()" uniqueid="[engine:junit-jupiter]/[class:test.java.ConvertUnitsTest]/[method:testCompareAnswer()]"/>
+    <testcase name="testConvertTemperature" classname="test.java.ConvertUnitsTest" time="0.017" displayname="testConvertTemperature()" uniqueid="[engine:junit-jupiter]/[class:test.java.ConvertUnitsTest]/[method:testConvertTemperature()]"/>
+  </testsuite>
+</testrun>

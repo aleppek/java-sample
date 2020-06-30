@@ -1,4 +1,4 @@
-package main;
+package main.java;
 
 
 import java.util.ArrayList;
@@ -94,13 +94,7 @@ public class ConvertUnits {
 		}
 		
 		// Compare the right answer to the student's answer
-		String result = null;
-		
-		if (roundToTenths(studentAns).equals(roundToTenths(rightAns))) {
-			result = "correct";
-		} else {
-			result = "incorrect";
-		}
+		String result = compareAnswer(studentAns, rightAns);
 		
 		System.out.println("Result: " + result);
 	}
@@ -114,7 +108,7 @@ public class ConvertUnits {
 	 * @param targetUnits {@code <String>} Units to convert <em>to</em>
 	 * @return {@code <Double>} Converted temperature
 	 */
-	private static Double convertTemperature(Double inputTemp, String inputUnits, String targetUnits) {
+	public static Double convertTemperature(Double inputTemp, String inputUnits, String targetUnits) {
 	
 		// First convert to Kelvin, a standard base unit
 		Double inputTempK = null;
@@ -154,7 +148,7 @@ public class ConvertUnits {
 	 * @param targetUnits {@code <String>} Units to convert <em>to</em>
 	 * @return {@code <Double>} Converted volume
 	 */
-	private static Double convertVolume(Double inputVol, String inputUnits, String targetUnits) {
+	public static Double convertVolume(Double inputVol, String inputUnits, String targetUnits) {
 		
 		// First convert to liters, a standard base unit
 		Double inputVolL = null;
@@ -195,12 +189,33 @@ public class ConvertUnits {
 	
 	
 	/**
+	 * Method to convert a student's answer to the correct answer.
+	 * 
+	 * @param studentAnswer {@code <Double>} Student's answer
+	 * @param rightAnswer {@code <Double>} Correct answer
+	 * @return {@code <String>} Evaluation of the student's answer
+	 */
+	public static String compareAnswer(Double studentAnswer, Double rightAnswer) {
+		
+		String result = null;
+		
+		if (roundToTenths(studentAnswer).equals(roundToTenths(rightAnswer))) {
+			result = "correct";
+		} else {
+			result = "incorrect";
+		}
+		
+		return result;
+	}
+	
+	
+	/**
 	 * Method to round a double number to the tenths place.
 	 * 
 	 * @param ans {@code <Double>} Number to be rounded
 	 * @return {@code <Double>} Rounded number
 	 */
-	private static Double roundToTenths(Double ans) {
+	public static Double roundToTenths(Double ans) {
 		
 		// a. Multiply ans by 10 to get the tenths place in the ones place
 		// b. Round this to a long (no decimal)
