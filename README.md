@@ -1,5 +1,8 @@
-# flexion-project
-Project for Flexion code exercise
+# java-sample
+This is a project for a simple unit conversion app. The user may enter units of volume or temperature to convert, within the following lists:
+Volume units: liters, tablespoons, cubic-inches, cups, cubic-feet, and gallons
+Temperature units: Kelvin, Celsius, Fahrenheit, and Rankine
+This is a simple application implemented as a command line interface, intended to show the usage of the Java language, solution process and logic, and basic distribution to end users. 
 
 
 How to install & run: 
